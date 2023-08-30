@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial scale=1.0">
+        <link rel="Stylesheet" href="./style.css">
+        <title>Project Survey Form</title>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="formform">
+                <form id="myform" action="./test.html">
+                    <label for="namehead" class="pair">
+                        Name<br/>
+                    </label>
+                    <input type="text" id="nameentered" placeholder="Enter your name" class="entryspace" required/><br/>
+                    
+                    <label for="Email" class="pair">
+                        Email<br/>
+                    </label>
+                    <input type="text" id="emailentered" placeholder="Enter your email" class="entryspace" required/><br/>
+                    <label for="Gender" class="pair">
+                        Gender<br/>
+                    </label>
+    
+                    <input type="text" id="Gender" placeholder="Are you Male or Female" class="entryspace" required/><br/>
+                    <div class="pair">Choose your career<br/>
+                        <div class="checkboxlist">
+                            <input type="radio" name="career_choice" value="Data analyst"/>Data Science<br/>
+                            <input type="radio" name="career_choice" value="Web design"/>Web Development<br/>
+                            <input type="radio" name="career_choice" value="App developer"/>App Development<br/>
+                            <input type="radio" name="career_choice" value="Forex Expert"/>Forex Expert<br/>
+                        </div>
+                    </div>
+                    <label for="why" class="pair">
+                        Why?<br/>
+                    </label>
+                    <textarea name="whyarea" placeholder="Enter reason for career choice..." rows="4" class="entryspace" ></textarea><br/>
+    
+                    <label for="checkb" class="pair">
+                        Which of the following best defines your experience in tech?<br/>
+                    </label>
+                    <div class="pair">
+                        <input type="checkbox"  name="checkb1" value="worthwhile"/>Worthwhile<br/>
+                        <input type="checkbox"  name="checkb2" value="wastetime"/>Not worth the time<br/>
+                        <input type="checkbox" name="checkb3" value="ffreedom"/>Financial freedom<br/>
+                        <input type="checkbox" name="checkb4" value="someonlese"/>I should learn something else<br/>
+                        <input type="checkbox" name="checkb5" value="Easiestway"/>Easiest way to financial freedom<br/>
+                    </div>
+                    <div class="submitbutt">
+                        <input type="submit" value="Submit" class="submitbutton"/>
+                        
+
+                    </div>    
+                    
+                       
+                    
+                </form>
+
+            </div>
+            
+
+        </div>
+    </body>
+</html>
